@@ -1,0 +1,10 @@
+{
+  "values": [
+    "corruptedore:pure_end_ore",
+    "corruptedore:pure_nether_ore",
+    "corruptedore:pure_ore",
+    "corruptedore:rich_pure_ore",
+    "minecraft:obsidian",
+    "#minecraft:needs_iron_tool"
+  ]
+}

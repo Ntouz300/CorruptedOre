@@ -1,0 +1,9 @@
+{
+  "parent": "minecraft:block/orientable_with_bottom",
+  "textures": {
+    "bottom": "corruptedore:block/stalwart_golem_head_bottom",
+    "front": "corruptedore:block/stalwart_golem_head_front",
+    "side": "corruptedore:block/stalwart_golem_head_side",
+    "top": "corruptedore:block/stalwart_golem_head_top"
+  }
+}

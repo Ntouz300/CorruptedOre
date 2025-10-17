@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "A": {
+      "item": "corruptedore:pure_axe"
+    },
+    "B": {
+      "item": "corruptedore:pure_shovel"
+    },
+    "C": {
+      "item": "corruptedore:pure_pickaxe"
+    },
+    "D": {
+      "item": "minecraft:stick"
+    }
+  },
+  "pattern": [
+    "ABC",
+    " D ",
+    " D "
+  ],
+  "result": {
+    "count": 1,
+    "id": "corruptedore:pure_paxel"
+  }
+}

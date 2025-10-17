@@ -1,0 +1,107 @@
+{
+  "item.corruptedore.corruptedgem": "Corrupted Gem",
+  "item.corruptedore.puregem": "Pure Gem",
+  "item.corruptedore.corruptedfragment": "Corrupted Fragment",
+  "item.corruptedore.pure_ingot": "Pure Ingot",
+  "item.corruptedore.corrupted_ingot": "Corrupted Ingot",
+
+  "item.corruptedore.purifying_orb": "Purifying Orb",
+  "item.corruptedore.corrupted_apple": "Corrupted Apple",
+  "item.corruptedore.pure_apple": "Pure Apple",
+
+  "item.corruptedore.corrupted_gnome_egg": "Corrupted Gnome Egg",
+  "item.corruptedore.small_stalwart_golem_spawn_egg": "Small Stalwart Golem Egg",
+
+  "item.corruptedore.corrupted_sword": "Corrupted Sword",
+  "item.corruptedore.corrupted_pickaxe": "Corrupted Pickaxe",
+  "item.corruptedore.corrupted_shovel": "Corrupted Shovel",
+  "item.corruptedore.corrupted_axe": "Corrupted Axe",
+  "item.corruptedore.corrupted_hoe": "Corrupted Hoe",
+
+  "item.corruptedore.pure_sword": "Pure Sword",
+  "item.corruptedore.pure_pickaxe": "Pure Pickaxe",
+  "item.corruptedore.pure_shovel": "Pure Shovel",
+  "item.corruptedore.pure_axe": "Pure Axe",
+  "item.corruptedore.pure_hoe": "Pure Hoe",
+
+  "item.corruptedore.corrupted_boots": "Corrupted Boots",
+  "item.corruptedore.corrupted_leggings": "Corrupted Leggings",
+  "item.corruptedore.corrupted_chestplate": "Corrupted Chestplate",
+  "item.corruptedore.corrupted_helmet": "Corrupted Helmet",
+
+  "item.corruptedore.corrupted_horse_armor": "Corrupted Horse Armor",
+  "item.corruptedore.pure_horse_armor": "Pure Horse Armor",
+
+  "item.corruptedore.pure_boots": "Pure Boots",
+  "item.corruptedore.pure_leggings": "Pure Leggings",
+  "item.corruptedore.pure_chestplate": "Pure Chestplate",
+  "item.corruptedore.pure_helmet": "Pure Helmet",
+
+  "item.corruptedore.corrupted_hammer": "Corrupted Hammer",
+  "item.corruptedore.pure_hammer": "Pure Hammer",
+
+  "item.corruptedore.corrupted_paxel": "Corrupted Paxel",
+  "item.corruptedore.pure_paxel": "Pure Paxel",
+
+  "item.corruptedore.corrupted_bow": "Corrupted Bow",
+  "item.corruptedore.pure_bow": "Pure Bow",
+
+  "item.corruptedore.corrupted_battle_axe": "Corrupted Battle Axe",
+  "item.corruptedore.pure_battle_axe": "Pure Battle Axe",
+
+  "item.corruptedore.stalwart_paxel": "Stalwart Paxel",
+
+  "block.corruptedore.corrupted_block": "Corrupted Block",
+  "block.corruptedore.pure_block": "Pure Block",
+
+  "block.corruptedore.stalwart_golem_head": "Stalwart Golem Head",
+  "block.corruptedore.stalwart_pumpkin": "Stalwart Pumpkin",
+
+  "block.corruptedore.pure_ore": "Pure Ore",
+  "block.corruptedore.rich_pure_ore": "Rich Pure Ore",
+  "block.corruptedore.corrupted_ore": "Corrupted Ore",
+  "block.corruptedore.rich_corrupted_ore": "Rich Corrupted Ore",
+
+  "block.corruptedore.corrupted_end_ore": "Corrupted End Ore",
+  "block.corruptedore.corrupted_nether_ore": "Corrupted Nether Ore",
+  "block.corruptedore.pure_end_ore": "Pure End Ore",
+  "block.corruptedore.pure_nether_ore": "Pure Nether Ore",
+
+  "block.corruptedore.corrupted_stairs": "Corrupted Stairs",
+  "block.corruptedore.corrupted_slab": "Corrupted Slab",
+
+  "block.corruptedore.corrupted_button": "Corrupted Button",
+  "block.corruptedore.corrupted_pressure_plate": "Corrupted Pressure Plate",
+
+  "block.corruptedore.corrupted_gate": "Corrupted Fence",
+  "block.corruptedore.corrupted_fence": "Corrupted Fence",
+  "block.corruptedore.corrupted_fence_gate": "Corrupted Fence Gate",
+  "block.corruptedore.corrupted_wall": "Corrupted Wall",
+
+  "block.corruptedore.corrupted_door": "Corrupted Door",
+  "block.corruptedore.corrupted_trapdoor": "Corrupted Trapdoor",
+
+  "block.corruptedore.purifier_block": "Purifier Block",
+
+  "creative.corruptedore.corruptedore_blocks": "Corrupted Blocks",
+  "creative.corruptedore.corruptedore_items": "Corrupted Items",
+  "creative.corruptedore.corruptedore_combat": "Corrupted Combat",
+
+  "tooltip.corruptedore.purifier_block.tooltip": "A pure block that can transform corrupted items",
+  "tooltip.corruptedore.purifier_item.shift_down": "This item can purify some corrupted blocks",
+  "tooltip.corruptedore.purifier_item": "Press §eshift§r for more information",
+
+  "tooltip.corruptedore.stalwart_paxel_item.shift_down": "§o§dA mysterious tool made from the best metal in Minecraft§r",
+  "tooltip.corruptedore.stalwart_paxel_item": "Press §eshift§r for more information",
+
+  "tooltip.corruptedore.stalwart_golem_head.shift_down": "§o§dWhen it's placed on top of a Pure Block, a wonder happens§r",
+  "tooltip.corruptedore.stalwart_golem_head": "Press §eshift§r for more information",
+
+  "tooltip.corruptedore.stalwart_pumpkin.shift_down" : "§o§dA mysterious pumpkin made from the best metal in Minecraft§r",
+  "tooltip.corruptedore.stalwart_pumpkin": "Press §eshift§r for more information",
+
+  "entity.corruptedore.corrupted_gnome": "Corrupted Gnome",
+  "entity.corruptedore.small_stalwart_golem": "Small Stalwart Gnome",
+
+  "block.corruptedore.advanced_crafting_table": "Advanced Crafting Table"
+}

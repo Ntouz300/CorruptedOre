@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/handheld",
+  "textures": {
+    "layer0": "corruptedore:item/corrupted_shovel"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "corruptedore:block/corrupted_slab"
+    },
+    "type=double": {
+      "model": "corruptedore:block/corrupted_block"
+    },
+    "type=top": {
+      "model": "corruptedore:block/corrupted_slab_top"
+    }
+  }
+}

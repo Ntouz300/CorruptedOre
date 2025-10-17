@@ -1,0 +1,8 @@
+{
+  "remove": [
+    "#corruptedore:needs_stalwart_tool"
+  ],
+  "values": [
+    "#minecraft:incorrect_for_netherite_tool"
+  ]
+}

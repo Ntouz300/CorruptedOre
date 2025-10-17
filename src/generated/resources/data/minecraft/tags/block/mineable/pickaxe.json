@@ -1,0 +1,26 @@
+{
+  "values": [
+    "corruptedore:pure_block",
+    "corruptedore:rich_pure_ore",
+    "corruptedore:pure_ore",
+    "corruptedore:corrupted_block",
+    "corruptedore:rich_corrupted_ore",
+    "corruptedore:corrupted_ore",
+    "corruptedore:purifier_block",
+    "corruptedore:pure_end_ore",
+    "corruptedore:corrupted_end_ore",
+    "corruptedore:pure_nether_ore",
+    "corruptedore:corrupted_nether_ore",
+    "corruptedore:stalwart_golem_head",
+    "corruptedore:stalwart_golem_head",
+    "corruptedore:stalwart_pumpkin",
+    "corruptedore:corrupted_door",
+    "corruptedore:corrupted_fence",
+    "corruptedore:corrupted_pressure_plate",
+    "corruptedore:corrupted_stairs",
+    "corruptedore:corrupted_slab",
+    "corruptedore:corrupted_trapdoor",
+    "corruptedore:corrupted_button",
+    "corruptedore:corrupted_fence_gate"
+  ]
+}

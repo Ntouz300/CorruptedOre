@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "A": {
+      "item": "corruptedore:corrupted_axe"
+    },
+    "B": {
+      "item": "corruptedore:corruptedgem"
+    },
+    "D": {
+      "item": "minecraft:stick"
+    }
+  },
+  "pattern": [
+    "AB",
+    "BD",
+    " D"
+  ],
+  "result": {
+    "count": 1,
+    "id": "corruptedore:corrupted_battle_axe"
+  }
+}

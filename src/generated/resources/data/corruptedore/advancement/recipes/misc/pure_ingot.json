@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_puregem": {
+      "conditions": {
+        "items": [
+          {
+            "items": "corruptedore:puregem"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "corruptedore:pure_ingot"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_puregem"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "corruptedore:pure_ingot"
+    ]
+  }
+}

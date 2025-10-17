@@ -1,0 +1,14 @@
+// 1.21	2025-10-17T01:28:14.2489208	Tags for minecraft:block mod id corruptedore
+428242727be357dbf255d650617f512367cdc715 data/corruptedore/tags/block/incorrect_for_corrupted_tool.json
+278513ad1cf8b26927e3aa45d487f1ddf37c0f58 data/corruptedore/tags/block/incorrect_for_pure_tool.json
+ed49a05732677ddd1c8a31d63f1428dcc52eb906 data/corruptedore/tags/block/incorrect_for_stalwart_tool.json
+82362cfbd1836db13c7e9d36c8712821e795ac55 data/corruptedore/tags/block/mineable_with_paxel.json
+5f0897c51835af6fee6ff65ae45f5a94c45e1c1b data/corruptedore/tags/block/needs_corrupted_tool.json
+a249c46329a41538f49a564e1f14338aaf1be5a0 data/corruptedore/tags/block/needs_pure_tool.json
+30b58d6a4ef9d858d819c968e82663124716558d data/corruptedore/tags/block/needs_stalwart_tool.json
+ab0f7f26b84c8d4d0c8f2317015b81a54d9af551 data/minecraft/tags/block/fences.json
+8bd6eb936cf3da783e076ccf38ec6bc7fdc9f8f2 data/minecraft/tags/block/fence_gates.json
+d3a5ec8a2a7ea9aa800532dd3b6a2315ca062454 data/minecraft/tags/block/mineable/pickaxe.json
+6eb20d5fb30a0fd7e2ca18dae09cb9abcc50d800 data/minecraft/tags/block/needs_diamond_tool.json
+5ee0db48e427d0b4388606515d141f9a3c92e567 data/minecraft/tags/block/needs_iron_tool.json
+cebd870cb9dd7ee172f5acdbb6e0e20c361238e3 data/minecraft/tags/block/walls.json

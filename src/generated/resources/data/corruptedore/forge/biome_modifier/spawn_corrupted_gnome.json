@@ -1,0 +1,10 @@
+{
+  "type": "forge:add_spawns",
+  "biomes": "minecraft:dark_forest",
+  "spawners": {
+    "type": "corruptedore:corrupted_gnome",
+    "maxCount": 5,
+    "minCount": 4,
+    "weight": 25
+  }
+}

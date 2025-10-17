@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "group": "corruptedgem",
+  "key": {
+    "#": {
+      "item": "corruptedore:corruptedgem"
+    }
+  },
+  "pattern": [
+    "#  ",
+    "## ",
+    "###"
+  ],
+  "result": {
+    "count": 4,
+    "id": "corruptedore:corrupted_stairs"
+  }
+}

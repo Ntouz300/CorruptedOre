@@ -1,0 +1,6 @@
+{
+  "parent": "corruptedore:item/pure_bow",
+  "textures": {
+    "layer0": "corruptedore:item/pure_bow_pulling_2"
+  }
+}

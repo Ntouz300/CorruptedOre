@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "A": {
+      "item": "corruptedore:corruptedgem"
+    },
+    "B": {
+      "item": "minecraft:string"
+    },
+    "C": {
+      "item": "minecraft:stick"
+    }
+  },
+  "pattern": [
+    "ACB",
+    "A B",
+    "ACB"
+  ],
+  "result": {
+    "count": 1,
+    "id": "corruptedore:corrupted_bow"
+  }
+}

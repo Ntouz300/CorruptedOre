@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "A": {
+      "item": "corruptedore:pure_ingot"
+    },
+    "B": {
+      "item": "corruptedore:pure_paxel"
+    },
+    "C": {
+      "item": "minecraft:nether_star"
+    }
+  },
+  "pattern": [
+    "AAA",
+    " C ",
+    " B "
+  ],
+  "result": {
+    "count": 1,
+    "id": "corruptedore:stalwart_paxel"
+  }
+}
