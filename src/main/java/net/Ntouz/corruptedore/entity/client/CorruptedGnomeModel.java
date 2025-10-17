@@ -2,8 +2,10 @@ package net.Ntouz.corruptedore.entity.client;
 
 import com.mojang.blaze3d.vertex.PoseStack;
 import com.mojang.blaze3d.vertex.VertexConsumer;
+import com.mojang.math.Axis;
 import net.Ntouz.corruptedore.CorruptedOre;
 import net.Ntouz.corruptedore.entity.custom.CorruptedGnomeEntity;
+import net.minecraft.client.animation.AnimationDefinition;
 import net.minecraft.client.model.HierarchicalModel;
 import net.minecraft.client.model.geom.ModelLayerLocation;
 import net.minecraft.client.model.geom.ModelPart;
@@ -15,12 +17,10 @@ import net.minecraft.util.Mth;
 public class CorruptedGnomeModel<T extends CorruptedGnomeEntity> extends HierarchicalModel<T> {
     public static final ModelLayerLocation LAYER_LOCATION = new ModelLayerLocation(ResourceLocation.fromNamespaceAndPath(CorruptedOre.MOD_ID, "corrupted_gnome"), "main");
     private final ModelPart head;
-    private final ModelPart body;
     private final ModelPart main;
 
     public CorruptedGnomeModel(ModelPart root) {
         this.main = root.getChild("main");
-        this.body = main.getChild("body");
         this.head = main.getChild("head");
 ;
     }

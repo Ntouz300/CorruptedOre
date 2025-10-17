@@ -2,6 +2,7 @@ package net.Ntouz.corruptedore.block;
 
 import net.Ntouz.corruptedore.CorruptedOre;
 import net.Ntouz.corruptedore.block.custom.PurifierSource;
+import net.Ntouz.corruptedore.block.custom.PurifyingCauldron;
 import net.Ntouz.corruptedore.block.custom.StalwartGolemHead;
 import net.Ntouz.corruptedore.block.custom.StalwartPumpkin;
 import net.Ntouz.corruptedore.item.ModItems;
@@ -96,9 +97,8 @@ public class ModBlocks {
     public static final RegistryObject<StalwartPumpkin> STALWART_PUMPKIN = registerBlock("stalwart_pumpkin",
             () -> new StalwartPumpkin(BlockBehaviour.Properties.of().strength(3f).requiresCorrectToolForDrops().sound(SoundType.HARD_CROP)));
 
-
-
-
+    public static final RegistryObject<PurifyingCauldron> PURIFYING_CAULDRON= registerBlock("purifying_cauldron",
+            () -> new PurifyingCauldron(BlockBehaviour.Properties.of().noOcclusion()));
 
     // FONCTIONS ET AUTRES POUR LES BLOCKS
     private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block) {

@@ -63,6 +63,8 @@ public class ModBlockLootTableProvider extends BlockLootSubProvider {
         dropSelf(ModBlocks.CORRUPTED_WALL.get());
         dropSelf(ModBlocks.CORRUPTED_FENCE_GATE.get());
 
+        dropSelf(ModBlocks.PURIFYING_CAULDRON.get());
+
         dropSelf(ModBlocks.STALWART_PUMPKIN.get());
         dropSelf(ModBlocks.SALWART_GOLEM_HEAD.get());
 

@@ -97,6 +97,7 @@ public class ModCreativeModetabs {
                         output.accept(ModBlocks.PURE_BLOCK.get());
 
                         output.accept(ModBlocks.PURIFIER_BLOCK.get());
+                        output.accept(ModBlocks.PURIFYING_CAULDRON.get());
 
                         output.accept(ModBlocks.CORRUPTED_STAIRS.get());
                         output.accept(ModBlocks.CORRUPTED_SLAB.get());

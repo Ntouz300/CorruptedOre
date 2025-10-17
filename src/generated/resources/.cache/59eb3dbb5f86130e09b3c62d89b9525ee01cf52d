@@ -1,4 +1,4 @@
-// 1.21	2025-10-16T23:50:18.067008	Loot Tables
+// 1.21	2025-10-17T16:07:08.6432223	Loot Tables
 66e03df17e5027f0e5fb5c7e4ec16302abc45893 data/corruptedore/loot_table/blocks/corrupted_block.json
 c5fba7578da003fcb638a2a14240d5444e872257 data/corruptedore/loot_table/blocks/corrupted_button.json
 cafd80178adb299f4256271448c6296ee835540a data/corruptedore/loot_table/blocks/corrupted_door.json
@@ -17,6 +17,7 @@ d2db56e4a71a3f21fa924abd62ff0e4bed425e5e data/corruptedore/loot_table/blocks/pur
 57246067d424fbc0b8c6262055e9cb6eaf244512 data/corruptedore/loot_table/blocks/pure_nether_ore.json
 e90f73f967a5e2ad521faa08727a4210e53cc5dc data/corruptedore/loot_table/blocks/pure_ore.json
 df488d5be5b44381488257f846c41230e31bfa57 data/corruptedore/loot_table/blocks/purifier_block.json
+eaa67f10deca454c93fa0e4a6d3f7d04c8501b75 data/corruptedore/loot_table/blocks/purifying_cauldron.json
 95754e9a87929c6f781861c482c70e20d5104f5b data/corruptedore/loot_table/blocks/rich_corrupted_ore.json
 e2189d3588df96abad63361ab8a5b32d16dd8897 data/corruptedore/loot_table/blocks/rich_pure_ore.json
 2a9e828354a7ed308e539056f028ee23f447d244 data/corruptedore/loot_table/blocks/stalwart_golem_head.json

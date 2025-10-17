@@ -2,16 +2,22 @@ package net.Ntouz.corruptedore;
 
 import com.mojang.logging.LogUtils;
 import net.Ntouz.corruptedore.block.ModBlocks;
+import net.Ntouz.corruptedore.block.entity.ModBlockEntities;
+import net.Ntouz.corruptedore.block.entity.renderer.PurifyingCauldronRenderer;
 import net.Ntouz.corruptedore.component.ModDataComponentTypes;
 import net.Ntouz.corruptedore.entity.ModEntities;
 import net.Ntouz.corruptedore.entity.client.CorruptedGnomeRenderer;
 import net.Ntouz.corruptedore.entity.client.SmallStalwartGolemRenderer;
+import net.Ntouz.corruptedore.screen.ModMenuTypes;
+import net.Ntouz.corruptedore.screen.custom.PurifyingCauldronScreen;
 import net.Ntouz.corruptedore.util.ModCreativeModetabs;
 import net.Ntouz.corruptedore.item.ModItems;
 import net.Ntouz.corruptedore.util.ModItemProperties;
+import net.minecraft.client.gui.screens.MenuScreens;
 import net.minecraft.client.renderer.entity.EntityRenderers;
 import net.minecraft.world.item.CreativeModeTabs;
 import net.minecraftforge.api.distmarker.Dist;
+import net.minecraftforge.client.event.EntityRenderersEvent;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.event.BuildCreativeModeTabContentsEvent;
 import net.minecraftforge.event.server.ServerStartingEvent;
@@ -43,10 +49,13 @@ public class CorruptedOre {
 
         ModItems.register(modEventBus);
         ModBlocks.register(modEventBus);
+        ModBlockEntities.register(modEventBus);
 
         ModDataComponentTypes.register(modEventBus);
 
         ModEntities.register(modEventBus);
+
+        ModMenuTypes.register(modEventBus);
 
         // Register the item to a creative tab
         modEventBus.addListener(this::addCreative);
@@ -87,7 +96,13 @@ public class CorruptedOre {
 
             EntityRenderers.register(ModEntities.CORRUPTED_GNOME.get(), CorruptedGnomeRenderer::new);
             EntityRenderers.register(ModEntities.SMALL_STALWART_GOLEM.get(), SmallStalwartGolemRenderer::new);
+
+            MenuScreens.register(ModMenuTypes.PURIFYING_CAULDRON_MENU.get(), PurifyingCauldronScreen::new);
         }
 
+        @SubscribeEvent
+        public static void registerBER(EntityRenderersEvent.RegisterRenderers event) {
+            event.registerBlockEntityRenderer(ModBlockEntities.PURIFYING_CAULDRON_BE.get(), PurifyingCauldronRenderer::new);
+        }
     }
 }
