@@ -7,7 +7,9 @@ import net.Ntouz.corruptedore.entity.custom.SmallStalwartGolemEntity;
 import net.minecraft.client.gui.screens.Screen;
 import net.minecraft.core.BlockPos;
 import net.minecraft.core.Direction;
+import net.minecraft.core.particles.ParticleTypes;
 import net.minecraft.network.chat.Component;
+import net.minecraft.server.level.ServerLevel;
 import net.minecraft.sounds.SoundEvents;
 import net.minecraft.sounds.SoundSource;
 import net.minecraft.world.item.Item;
@@ -82,8 +84,20 @@ public class StalwartGolemHead extends CarvedPumpkinBlock {
             level.addFreshEntity(golem);
         }
 
-        // Play sound & particles
+        ServerLevel serverLevel = (ServerLevel) level;
+
         level.playSound(null, support, SoundEvents.IRON_GOLEM_STEP, SoundSource.BLOCKS, 1.0f, 1.0f);
+
+        serverLevel.sendParticles(
+                ParticleTypes.OMINOUS_SPAWNING,
+                support.getX() + 0.5,
+                support.getY() + 1.0,
+                support.getZ() + 0.5,
+                10,
+                0.2, 0.2, 0.2,
+                0.01
+        );
+
         level.gameEvent(null, GameEvent.ENTITY_PLACE, support);
     }
 
