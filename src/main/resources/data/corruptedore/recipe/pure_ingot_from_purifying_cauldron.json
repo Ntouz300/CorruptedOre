@@ -1,0 +1,9 @@
+{
+  "type": "corruptedore:purifying_cauldron",
+  "ingredient": {
+    "item": "corruptedore:corrupted_ingot"
+  },
+  "result": {
+    "id": "corruptedore:pure_ingot"
+  }
+}
