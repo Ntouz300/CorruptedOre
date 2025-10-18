@@ -1,0 +1,9 @@
+{
+  "type": "corruptedore:purifying_cauldron",
+  "ingredient": {
+    "item": "corruptedore:corruptedgem"
+  },
+  "result": {
+    "id": "corruptedore:puregem"
+  }
+}

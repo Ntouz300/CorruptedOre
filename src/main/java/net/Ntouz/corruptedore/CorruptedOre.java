@@ -8,6 +8,7 @@ import net.Ntouz.corruptedore.component.ModDataComponentTypes;
 import net.Ntouz.corruptedore.entity.ModEntities;
 import net.Ntouz.corruptedore.entity.client.CorruptedGnomeRenderer;
 import net.Ntouz.corruptedore.entity.client.SmallStalwartGolemRenderer;
+import net.Ntouz.corruptedore.recipe.ModRecipes;
 import net.Ntouz.corruptedore.screen.ModMenuTypes;
 import net.Ntouz.corruptedore.screen.custom.PurifyingCauldronScreen;
 import net.Ntouz.corruptedore.util.ModCreativeModetabs;
@@ -56,6 +57,8 @@ public class CorruptedOre {
         ModEntities.register(modEventBus);
 
         ModMenuTypes.register(modEventBus);
+
+        ModRecipes.register(modEventBus);
 
         // Register the item to a creative tab
         modEventBus.addListener(this::addCreative);

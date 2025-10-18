@@ -2,6 +2,9 @@ package net.Ntouz.corruptedore.block.entity.custom;
 
 import net.Ntouz.corruptedore.block.entity.ModBlockEntities;
 import net.Ntouz.corruptedore.item.ModItems;
+import net.Ntouz.corruptedore.recipe.ModRecipes;
+import net.Ntouz.corruptedore.recipe.PurifyingCauldronRecipe;
+import net.Ntouz.corruptedore.recipe.PurifyingCauldronRecipeInput;
 import net.Ntouz.corruptedore.screen.custom.PurifyingCauldronMenu;
 import net.minecraft.core.BlockPos;
 import net.minecraft.core.HolderLookup;
@@ -19,6 +22,7 @@ import net.minecraft.world.inventory.AbstractContainerMenu;
 import net.minecraft.world.inventory.ContainerData;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.ItemStack;
+import net.minecraft.world.item.crafting.RecipeHolder;
 import net.minecraft.world.level.Level;
 import net.minecraft.world.level.block.entity.BlockEntity;
 import net.minecraft.world.level.block.entity.BlockEntityType;
@@ -29,6 +33,7 @@ import net.minecraftforge.items.ItemStackHandler;
 import org.jetbrains.annotations.NotNull;
 
 import javax.annotation.Nullable;
+import java.util.Optional;
 
 public class PurifyingCauldronEntity extends BlockEntity implements MenuProvider {
     public final ItemStackHandler itemHandler = new ItemStackHandler(2) {
@@ -169,7 +174,8 @@ public class PurifyingCauldronEntity extends BlockEntity implements MenuProvider
     }
 
     private void craftItem() {
-        ItemStack output = new ItemStack(ModItems.PUREGEM.get());
+        Optional<RecipeHolder<PurifyingCauldronRecipe>> recipe = getCurrentRecipe();
+        ItemStack output = recipe.get().value().output();
 
         itemHandler.extractItem(INPUT_SLOT, 1, false);
         itemHandler.setStackInSlot(OUTPUT_SLOT, new ItemStack(output.getItem(),
@@ -185,11 +191,18 @@ public class PurifyingCauldronEntity extends BlockEntity implements MenuProvider
     }
 
     private boolean hasRecipe() {
-        Item input = ModItems.CORRUPTEDGEM.get();
-        ItemStack output = new ItemStack(ModItems.PUREGEM.get());
+        Optional<RecipeHolder<PurifyingCauldronRecipe>> recipe = getCurrentRecipe();
+        if(recipe.isEmpty()) {
+            return false;
+        }
 
-        return itemHandler.getStackInSlot(INPUT_SLOT).is(input) && canInsertItemIntoOutputSlot(output)
-                && canInsertAmountIntoOutputSlot(output.getCount());
+        ItemStack output = recipe.get().value().output();
+        return canInsertItemIntoOutputSlot(output) && canInsertAmountIntoOutputSlot(output.getCount());
+    }
+
+    private Optional<RecipeHolder<PurifyingCauldronRecipe>> getCurrentRecipe() {
+        return this.level.getRecipeManager()
+                .getRecipeFor(ModRecipes.PURIFYING_CAULDRON_TYPE.get(), new PurifyingCauldronRecipeInput(itemHandler.getStackInSlot(INPUT_SLOT)), level);
     }
 
     private boolean canInsertItemIntoOutputSlot(ItemStack output) {
