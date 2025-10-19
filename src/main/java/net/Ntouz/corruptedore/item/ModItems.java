@@ -163,6 +163,9 @@ public class ModItems {
     public static final RegistryObject<Item> SMALL_STALWART_GOLEM_SPAWN_EGG = ITEMS.register("small_stalwart_golem_spawn_egg",
             () -> new ForgeSpawnEggItem(ModEntities.SMALL_STALWART_GOLEM, 0x319094, 0xa3f5ff, new Item.Properties()));
 
+    public static final RegistryObject<Item> MARROWDER_EGG = ITEMS.register("marrowder_egg",
+            () -> new ForgeSpawnEggItem(ModEntities.MARROWDER, 0x828282, 0xbe9595, new Item.Properties()));
+
 
 
 

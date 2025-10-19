@@ -29,6 +29,7 @@ public class ModBiomeModifiers {
     public static ResourceKey<BiomeModifier> ADD_PURE_END_ORE = registerKey("add_pure_end_ore");
 
     public static ResourceKey<BiomeModifier> SPAWN_CORRUPTED_GNOME = registerKey("spawn_corrupted_gnome");
+    public static ResourceKey<BiomeModifier> SPAWN_MARROWDER = registerKey("spawn_marrowder");
 
 
 
@@ -70,6 +71,10 @@ public class ModBiomeModifiers {
         context.register(SPAWN_CORRUPTED_GNOME,  new ForgeBiomeModifiers.AddSpawnsBiomeModifier(
                 HolderSet.direct(biomes.getOrThrow(Biomes.DARK_FOREST)),
                 List.of(new MobSpawnSettings.SpawnerData(ModEntities.CORRUPTED_GNOME.get(), 25, 4, 5))));
+
+        context.register(SPAWN_MARROWDER,  new ForgeBiomeModifiers.AddSpawnsBiomeModifier(
+                HolderSet.direct(biomes.getOrThrow(Biomes.FOREST), biomes.getOrThrow(Biomes.DARK_FOREST), biomes.getOrThrow(Biomes.BIRCH_FOREST), biomes.getOrThrow(Biomes.OLD_GROWTH_BIRCH_FOREST)),
+                List.of(new MobSpawnSettings.SpawnerData(ModEntities.MARROWDER.get(), 25, 4, 5))));
 
     }
 

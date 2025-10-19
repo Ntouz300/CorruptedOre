@@ -77,6 +77,7 @@ public class ModCreativeModetabs {
 
                         output.accept(ModItems.CORRUPTED_GNOME_EGG.get());
                         output.accept(ModItems.SMALL_STALWART_GOLEM_SPAWN_EGG.get());
+                        output.accept(ModItems.MARROWDER_EGG.get());
                     }).build());
 
     public static final RegistryObject<CreativeModeTab> CORRUPTED_ORE_BLOCKS_TAB = CREATIVE_MODE_TABS.register("corruptedore_blocks_tab",

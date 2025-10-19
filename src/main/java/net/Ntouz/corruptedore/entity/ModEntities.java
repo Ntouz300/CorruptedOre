@@ -2,6 +2,7 @@ package net.Ntouz.corruptedore.entity;
 
 import net.Ntouz.corruptedore.CorruptedOre;
 import net.Ntouz.corruptedore.entity.custom.CorruptedGnomeEntity;
+import net.Ntouz.corruptedore.entity.custom.MarrowderEntity;
 import net.Ntouz.corruptedore.entity.custom.SmallStalwartGolemEntity;
 import net.minecraft.world.entity.EntityType;
 import net.minecraft.world.entity.MobCategory;
@@ -31,6 +32,13 @@ public class ModEntities {
                     () -> EntityType.Builder.of(SmallStalwartGolemEntity::new, MobCategory.MONSTER)
                             .sized(0.6F, 0.84F) // width, height
                             .build("small_stalwart_golem"));
+
+    public static final RegistryObject<EntityType<MarrowderEntity>> MARROWDER =
+            ENTITY_TYPES.register("marrowder",
+                    () -> EntityType.Builder.of(MarrowderEntity::new, MobCategory.MONSTER)
+                            .sized(0.85F, 1.6F) // width, height
+                            .build("marrowder"));
+
 
 
     public static void register(IEventBus eventBus){

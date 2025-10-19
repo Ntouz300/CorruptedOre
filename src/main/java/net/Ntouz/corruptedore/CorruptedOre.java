@@ -7,6 +7,7 @@ import net.Ntouz.corruptedore.block.entity.renderer.PurifyingCauldronRenderer;
 import net.Ntouz.corruptedore.component.ModDataComponentTypes;
 import net.Ntouz.corruptedore.entity.ModEntities;
 import net.Ntouz.corruptedore.entity.client.CorruptedGnomeRenderer;
+import net.Ntouz.corruptedore.entity.client.MarrowderRenderer;
 import net.Ntouz.corruptedore.entity.client.SmallStalwartGolemRenderer;
 import net.Ntouz.corruptedore.recipe.ModRecipes;
 import net.Ntouz.corruptedore.screen.ModMenuTypes;
@@ -99,6 +100,7 @@ public class CorruptedOre {
 
             EntityRenderers.register(ModEntities.CORRUPTED_GNOME.get(), CorruptedGnomeRenderer::new);
             EntityRenderers.register(ModEntities.SMALL_STALWART_GOLEM.get(), SmallStalwartGolemRenderer::new);
+            EntityRenderers.register(ModEntities.MARROWDER.get(), MarrowderRenderer::new);
 
             MenuScreens.register(ModMenuTypes.PURIFYING_CAULDRON_MENU.get(), PurifyingCauldronScreen::new);
         }

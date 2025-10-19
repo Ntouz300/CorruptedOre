@@ -1,4 +1,4 @@
-// 1.21	2025-10-16T03:58:40.5381758	Item Models: corruptedore
+// 1.21	2025-10-18T23:32:42.8632275	Item Models: corruptedore
 25273d0a0e60bdafede43afafcd6f4c55b6f2d42 assets/corruptedore/models/item/corruptedfragment.json
 9a8311a1e8d5eece0a548dbd9225b456d5bb9e99 assets/corruptedore/models/item/corruptedgem.json
 449b9b1d7b7bb08ffd986a624e88fefe8cbb0658 assets/corruptedore/models/item/corrupted_apple.json
@@ -61,6 +61,7 @@ d89e5db6dd22a3885d39e8602b84d1be96556d18 assets/corruptedore/models/item/corrupt
 875a21bdf870a736e2802b6071b9dac768540f02 assets/corruptedore/models/item/corrupted_shovel.json
 f51b301c0d94d77ed0aa6eac1266c7fdda587b21 assets/corruptedore/models/item/corrupted_sword.json
 7fa7fb88bdbd9a38fe09b181c5359ac1d102a7fc assets/corruptedore/models/item/corrupted_wall.json
+63ec6c618a3a23eab4cab9c52d7d3250de9b516e assets/corruptedore/models/item/marrowder_egg.json
 97b0fc2ad01c8ba6de73c627fedd883bd4324868 assets/corruptedore/models/item/puregem.json
 ac762801937e8fdd7bd0d37f72f90e7e2faaf93a assets/corruptedore/models/item/pure_apple.json
 6d735444a1c082520fa935850a986812b925d21f assets/corruptedore/models/item/pure_axe.json

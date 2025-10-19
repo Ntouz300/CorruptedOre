@@ -1,4 +1,4 @@
-// 1.21	2025-10-15T16:29:49.4899838	Registries
+// 1.21	2025-10-19T00:00:16.873559	Registries
 3ccc9ff46a8c3bbfeda7444165104379ae1911e4 data/corruptedore/forge/biome_modifier/add_corrupted_end_ore.json
 69067557e0dd37812e802b306cba914c21f32811 data/corruptedore/forge/biome_modifier/add_corrupted_nether_ore.json
 2ff9983102e7547efeaf3e86ff6066326de4b19b data/corruptedore/forge/biome_modifier/add_corrupted_ore.json
@@ -6,6 +6,7 @@
 8cd9c100bc51f1ce1b4a328214abe3a418654a78 data/corruptedore/forge/biome_modifier/add_pure_nether_ore.json
 9e2de46fb378c4094cc5940f5d6877c9fdd84f92 data/corruptedore/forge/biome_modifier/add_pure_ore.json
 3a6820ea608119cb766e5eb3b753cf1da4315afc data/corruptedore/forge/biome_modifier/spawn_corrupted_gnome.json
+b94b7be2794b268b1a5f2e55623e713ff50bc057 data/corruptedore/forge/biome_modifier/spawn_marrowder.json
 6c59549c3743d9e3599dc0464cd0bc82c41c6dda data/corruptedore/worldgen/configured_feature/corrupted_end_ore.json
 e4d8bec8be2a1f98c5ab93ae349b25dcf4c7951f data/corruptedore/worldgen/configured_feature/corrupted_nether_ore.json
 297d75319faca12a7a65d206fb7a52cc4396f96e data/corruptedore/worldgen/configured_feature/corrupted_ore.json

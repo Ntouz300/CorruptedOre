@@ -11,6 +11,7 @@
 
   "item.corruptedore.corrupted_gnome_egg": "Corrupted Gnome Egg",
   "item.corruptedore.small_stalwart_golem_spawn_egg": "Small Stalwart Golem Egg",
+  "item.corruptedore.marrowder_egg": "Marrowder Egg",
 
   "item.corruptedore.corrupted_sword": "Corrupted Sword",
   "item.corruptedore.corrupted_pickaxe": "Corrupted Pickaxe",
@@ -103,6 +104,7 @@
 
   "entity.corruptedore.corrupted_gnome": "Corrupted Gnome",
   "entity.corruptedore.small_stalwart_golem": "Small Stalwart Gnome",
+  "entity.corruptedore.marrowder": "Marrowder",
 
   "block.corruptedore.advanced_crafting_table": "Advanced Crafting Table"
 }
